@@ -91,11 +91,11 @@ section.bobility {
    
     background-repeat: no-repeat;
 }
-.w-100 {
+ .w-100 {
     width: 100%!important;
-    magin: 47px;
+    margin: 47px;
     border-radius: 34px;
-}
+} 
 
 p.team {
     margin-top: 51px;
@@ -103,21 +103,22 @@ p.team {
     font-weight: 500;
     /* margin-left: 7px; */
     /* text-align: center; */
-}
+} 
 
-img.demands {
+ img.demands {
     width: 36%;
     text-align: center;
     justify-content: center;
     margin-left: 85px;
     margin-top: 10px;
-}
+} 
 
 
 .rao {
     /* border: outset; */
     border: outset;
     border-inline-end: none;
+    margin-top: 45px;
 }
 
 
@@ -258,4 +259,14 @@ h3.discover {
         text-align: center;
         font-weight: lighter;
     }
+
+
+
+    img.im-7 {
+      width: 100%;
+  }
+  img.mk-7 {
+    width: 100%;
+}
+
 }
