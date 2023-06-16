@@ -175,6 +175,15 @@ h3.discover {
   font-size: 24px;
 }
 
+
+.box2-caption-12 {
+  position: absolute;
+  bottom: -81px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
 .row.ses {
 
   border-inline-end: none;
@@ -239,11 +248,8 @@ color: inherit;
 }
 
 
-img.d-block.w-100{
 
-  img-fluid
 
-}
 
 
 
