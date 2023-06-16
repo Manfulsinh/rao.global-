@@ -274,14 +274,24 @@ color: inherit;
 
 
 @media only screen and (max-width: 768px) {
-  .navbar-nav {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .navbar-nav .nav-item {
-    white-space: nowrap;
-  }
+  
+
+  @media (max-width: 768px) {
+    .navbar {
+      
+      display: flex;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      scroll-behavior: smooth;
+    }
+    
+    .navbar-nav {
+      white-space: nowrap;
+    }
+    
+    .nav-item {
+      margin-right: 10px; 
+    }
 
   img.im-7 {
     width: 100%;
@@ -355,6 +365,26 @@ h4.box2-caption-1-h {
   font-weight: 100;
   text-align: center;
 }
+
+
+
+element.style {
+  text-transform: uppercase;
+  padding: 0px 15px;
+  font-size: 16px;
+}.footer-a {
+  text-transform: uppercase;
+  border-right: 1px solid;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
+
+
+  }
+
+
 
 }
 
