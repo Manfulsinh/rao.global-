@@ -120,7 +120,7 @@ section.bobility {
 .w-100 {
   width: 100%!important;
   margin: 47px;
-  border-radius: 34px;
+ ;
 } 
 
 p.team {
@@ -202,18 +202,7 @@ h3.discover {
   font-size: 24px;
 }
 
-
-.box2-caption-12 {
-  position: absolute;
-  bottom: -81px;
-  background-color: white;
-  border-radius: 15px;
-  padding: 20px;
-}
-
 .row.ses {
-
-  border-inline-end: none;
   display: flex;
   justify-content: space-around;
 }
@@ -222,7 +211,10 @@ h3.discover {
 
 .cloud{
   position: relative;
-   margin-bottom: 5%
+   margin-bottom: 5%;
+   width: 100%;
+   
+   
 }
 
 .dream {
@@ -252,9 +244,9 @@ h2.blog {
   font-weight: bold;
 }
 
-
-.col-md-3.box3-blog {
-  margin-top: 20px;
+img.mk-7 {
+  width: 89%;
+  border-radius: 68px 60px 10px 10px;
 }
 
 
@@ -319,4 +311,50 @@ p.team {
   font-size: 9px;
 }
 
+.your-div-class {
+  overflow: auto;
 }
+
+.row.ses {
+  flex-direction: column;
+}
+
+.col-lg-5.cloud,
+.col-lg-6 {
+  width: 100%;
+}
+
+.box2-caption-1 {
+  position: static;
+  margin-top: 10px;
+  border-radius: 0;
+}
+
+.box2-caption-1-h {
+  font-size: 20px;
+}
+
+
+h4.box2-caption-1-h {
+  font-size: 41px;
+  font-weight: 100;
+}
+
+
+img.im-7 {
+  border-radius: 62px;
+}
+
+
+h2.blog {
+  font-size: 10px;
+}
+
+h4.box2-caption-1-h {
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+}
+
+}
+
