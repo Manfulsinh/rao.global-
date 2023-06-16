@@ -68,6 +68,33 @@ body {
 }
 
 
+
+
+.navbar-nav-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: #ddd #f5f5f5;
+}
+
+.navbar-nav-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.navbar-nav-scroll::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.navbar-nav-scroll::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.navbar-nav-scroll ul {
+  padding-right: 16px; /* Adjust as needed */
+}
+
+
 /* navbar and */
 
 
@@ -255,7 +282,14 @@ color: inherit;
 
 
 @media only screen and (max-width: 768px) {
- 
+  .navbar-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .navbar-nav .nav-item {
+    white-space: nowrap;
+  }
 
   img.im-7 {
     width: 100%;
