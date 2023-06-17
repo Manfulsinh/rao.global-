@@ -384,7 +384,36 @@ element.style {
 
   }
 
+  .bobility {
+    overflow-y: scroll;
+    height: 300px; /* Adjust the height as needed */
+  }
+  .bobility {
+    overflow-x: scroll;
+  }
 
+
+  .row.ses {
+    flex-direction: column;
+  }
+
+  .col-lg-5.cloud,
+  .col-lg-6 {
+    width: 100%;
+  }
+
+  .col-12.longer {
+    position: static;
+  }
+
+
+  .box2-caption-1 {
+    overflow-y: scroll;
+    max-height: 200px;
+  }
+  .box2-caption-1 {
+    overflow: hidden;
+  }
 
 }
 
